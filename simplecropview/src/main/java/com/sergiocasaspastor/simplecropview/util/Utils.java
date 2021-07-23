@@ -1,4 +1,4 @@
-package com.isseiaoki.simplecropview.util;
+package com.sergiocasaspastor.simplecropview.util;
 
 import android.annotation.TargetApi;
 import android.content.ContentResolver;

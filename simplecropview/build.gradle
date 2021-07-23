@@ -5,6 +5,9 @@ dependencies {
 
   implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
   implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+  androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+  androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+  androidTestImplementation 'junit:junit:4.13.2'
 }
 
 android {
@@ -30,31 +33,12 @@ if (!file.exists()) return
 apply plugin: 'com.github.dcendents.android-maven'
 //apply plugin: 'com.jfrog.bintray'
 
-group = 'com.isseiaoki'
+group = 'com.sergiocasaspastor'
 version = '1.1.8'
-def siteUrl = 'https://github.com/IsseiAoki/SimpleCropView'
-def gitUrl = 'https://github.com/IsseiAoki/SimpleCropView.git'
+def siteUrl = 'https://github.com/sergiocasaspastor/SimpleCropView'
+def gitUrl = 'https://github.com/sergiocasaspastor/SimpleCropView.git'
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
-
-//bintray {
-//
-//  user = properties.getProperty("bintray.user")
-//  key = properties.getProperty("bintray.apikey")
-//
-//  configurations = ['archives'] //When uploading configuration files
-//  pkg {
-//    repo = 'maven'
-//    name = 'SimpleCropView'
-//    desc = 'A simple image cropping library for Android.'
-//    websiteUrl = siteUrl
-//    issueTrackerUrl = 'https://github.com/IsseiAoki/SimpleCropView/issues'
-//    vcsUrl = gitUrl
-//    licenses = ['MIT']
-//    labels = ['android']
-//    publicDownloadNumbers = true
-//  }
-//}
 
 install {
   repositories.mavenInstaller {
@@ -71,14 +55,14 @@ install {
         }
         developers {
           developer {
-            id 'isseiaoki'
-            name 'Issei Aoki'
-            email 'i.greenwood.dev@gmail.com'
+            id 'sergiocasaspastor'
+            name 'Sergio Casas'
+            email 'scasap00@gmail.com'
           }
         }
         scm {
-          connection 'https://github.com/IsseiAoki/SimpleCropView.git'
-          developerConnection 'https://github.com/IsseiAoki/SimpleCropView.git'
+          connection 'https://github.com/sergiocasaspastor/SimpleCropView.git'
+          developerConnection 'https://github.com/sergiocasaspastor/SimpleCropView.git'
           url siteUrl
         }
       }

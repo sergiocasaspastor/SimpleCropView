@@ -1,4 +1,4 @@
-package com.isseiaoki.simplecropview.animation;
+package com.sergiocasaspastor.simplecropview.animation;
 
 @SuppressWarnings("unused") public interface SimpleValueAnimator {
   void startAnimation(long duration);

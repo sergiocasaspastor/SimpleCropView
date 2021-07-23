@@ -1,8 +1,8 @@
-package com.isseiaoki.simplecropview;
+package com.sergiocasaspastor.simplecropview;
 
 import android.graphics.Bitmap;
 import android.net.Uri;
-import com.isseiaoki.simplecropview.callback.CropCallback;
+import com.sergiocasaspastor.simplecropview.callback.CropCallback;
 import io.reactivex.Single;
 
 public class CropRequest {

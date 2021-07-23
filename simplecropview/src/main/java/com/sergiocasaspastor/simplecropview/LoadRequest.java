@@ -1,8 +1,8 @@
-package com.isseiaoki.simplecropview;
+package com.sergiocasaspastor.simplecropview;
 
 import android.graphics.RectF;
 import android.net.Uri;
-import com.isseiaoki.simplecropview.callback.LoadCallback;
+import com.sergiocasaspastor.simplecropview.callback.LoadCallback;
 import io.reactivex.Completable;
 
 public class LoadRequest {

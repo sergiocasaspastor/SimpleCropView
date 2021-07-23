@@ -51,7 +51,7 @@ repositories {
     jcenter()
 }
 dependencies {
-    compile 'com.isseiaoki:simplecropview:1.1.8'
+    compile 'com.sergiocasaspastor:simplecropview:1.1.8'
 }
 ```
 
@@ -72,7 +72,7 @@ Add the `com.isseiaoki.simplecropview.CropImageView` to your layout XML file.
 
 ```xml       
 
-<com.isseiaoki.simplecropview.CropImageView
+<com.sergiocasaspastor.simplecropview.CropImageView
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cropImageView"
     android:layout_weight="1"

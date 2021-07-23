@@ -1,4 +1,4 @@
-package com.isseiaoki.simplecropview.callback;
+package com.sergiocasaspastor.simplecropview.callback;
 
 public interface Callback {
   void onError(Throwable e);

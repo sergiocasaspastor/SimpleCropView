@@ -1,4 +1,4 @@
-package com.isseiaoki.simplecropview.animation;
+package com.sergiocasaspastor.simplecropview.animation;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
